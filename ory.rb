@@ -2,9 +2,9 @@
 class Ory < Formula
   desc ""
   homepage "https://www.ory.sh"
-  url "https://github.com/ory/ory/releases/download/v0.0.22/ory_0.0.22_macOS_64-bit.tar.gz"
-  version "0.0.22"
-  sha256 "92658406c68a44b186439b7b2434da3c2805817c354bd53b3edab8bc50debabb"
+  url "https://github.com/ory/ory/releases/download/v0.0.27/ory_0.0.27_macOS_64-bit.tar.gz"
+  version "0.0.27"
+  sha256 "c687bb53d57a61c9904b4822e40e54b51c6cb72220bc23428a1b6b05d30d09c1"
 
   def install
     bin.install "ory"
