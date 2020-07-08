@@ -2,20 +2,20 @@
 class Ory < Formula
   desc ""
   homepage "https://www.ory.sh"
-  version "0.0.12"
+  version "0.0.15"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/ory/cli/releases/download/v0.0.12/ory_0.0.12_macOS_64-bit.tar.gz"
-    sha256 "064558821dc752001a380550ff7e2e089a5e2bf2d7cab7040cd1dfb0e125bb74"
+    url "https://github.com/ory/cli/releases/download/v0.0.15/ory_0.0.15_macOS_64-bit.tar.gz"
+    sha256 "32cdfb658a5d86c05d6bce527a1329e9ff1cbb72e90716ccfc5c327a59b0ce7d"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/ory/cli/releases/download/v0.0.12/ory_0.0.12_linux_64-bit.tar.gz"
-      sha256 "f61380a2b94086ba51c69febbe6ab1e8e85be168a58b7dd784694a58adf89f2d"
+      url "https://github.com/ory/cli/releases/download/v0.0.15/ory_0.0.15_linux_64-bit.tar.gz"
+      sha256 "33062a1abd9023707e3c0a4f34e27c7831e070d882fb9a94d7628e810bce2123"
     end
   end
 
   def install
-    bin.install "ory"
+    bin.install "ory-sqlite"
   end
 end
