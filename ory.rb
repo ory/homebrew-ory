@@ -2,12 +2,12 @@
 class Ory < Formula
   desc ""
   homepage "https://www.ory.sh"
-  version "0.0.27"
+  version "0.0.28-pre.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/ory/cli/releases/download/v0.0.27/ory_0.0.27_macOS_64-bit.tar.gz"
-    sha256 "a965b49b75588a8a7bb9030f604ca90b830a805832e1f1b040efc26aa66b8b9c"
+    url "https://github.com/ory/cli/releases/download/v0.0.28-pre.0/ory_0.0.28-pre.0_macOS_64-bit.tar.gz"
+    sha256 "bf255ef22a8e0a7b07f7c93d723712d4a591bfa18d6fe72c85093d4988d05736"
   elsif OS.linux?
   end
 
