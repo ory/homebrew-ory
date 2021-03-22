@@ -5,12 +5,12 @@
 class Ory < Formula
   desc ""
   homepage "https://www.ory.sh"
-  version "0.0.47"
+  version "0.0.48"
   bottle :unneeded
 
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/ory/cli/releases/download/v0.0.47/ory_0.0.47_macOS_64-bit.tar.gz"
-    sha256 "3e516671d71f8deb9099257f663b57dafc86ee5f11da978d278c27e828eddc14"
+    url "https://github.com/ory/cli/releases/download/v0.0.48/ory_0.0.48_macOS_64-bit.tar.gz"
+    sha256 "3f0833b0e7ab69ffc1cc6d576a731b963930941db18dd067da9f599ad45274a9"
   end
 
   def install
